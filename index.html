@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Stardust Smoke Shop Menu</title>
+  <meta name="description" content="Stardust Smoke Shop - Brand & Flavor Menu. Scan QR to view." />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <!-- Age Gate -->
+  <div id="ageGate" class="modal-backdrop" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="ageTitle">
+      <h2 id="ageTitle">21+ Only</h2>
+      <p>You must be 21 or older to view this menu.</p>
+      <div class="modal-actions">
+        <button id="ageYes" class="btn primary">I’m 21+</button>
+        <button id="ageNo" class="btn">No</button>
+      </div>
+      <p class="fineprint">
+        Prices subject to change. Availability may vary. Menu is informational only — no online sales.
+      </p>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">✨</div>
+        <div class="brand-text">
+          <h1 id="shopName">Stardust Smoke Shop</h1>
+          <p class="sub" id="shopSub">Brand • Flavors • Prices</p>
+        </div>
+      </div>
+
+      <div class="top-actions">
+        <a id="callBtn" class="btn" href="tel:+19088295361">Call</a>
+        <a id="mapBtn" class="btn primary" target="_blank" rel="noreferrer" href="#">Directions</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="controls">
+      <label class="sr-only" for="brandSelect">Select brand</label>
+      <select id="brandSelect" aria-label="Select brand">
+        <option value="all">All brands</option>
+      </select>
+
+      <label class="sr-only" for="searchInput">Search flavors</label>
+      <input id="searchInput" type="search" placeholder="Search flavors (ex: mango, mint, blueberry…)" />
+
+      <label class="sr-only" for="sortSelect">Sort</label>
+      <select id="sortSelect" aria-label="Sort">
+        <option value="featured">Sort: Featured</option>
+        <option value="nameAsc">Flavor: A → Z</option>
+        <option value="nameDesc">Flavor: Z → A</option>
+        <option value="priceAsc">Price: Low → High</option>
+        <option value="priceDesc">Price: High → Low</option>
+      </select>
+    </section>
+
+    <section class="summary">
+      <div class="summary-card">
+        <div class="summary-title">Showing</div>
+        <div class="summary-value" id="resultsCount">0 items</div>
+      </div>
+      <div class="summary-card">
+        <div class="summary-title">Hours</div>
+        <div class="summary-value" id="hoursText">8 AM – 12 AM</div>
+      </div>
+      <div class="summary-card">
+        <div class="summary-title">Address</div>
+        <div class="summary-value" id="addressText">626 US-206 Unit-4, Hillsborough Township, NJ 08844</div>
+      </div>
+    </section>
+
+    <section class="grid" id="productGrid" aria-live="polite"></section>
+
+    <section class="footer-card">
+      <h2>Stardust Smoke Shop</h2>
+      <div class="info">
+        <div>
+          <div class="label">Phone</div>
+          <div><a class="link" href="tel:+19088295361" id="phoneText">(908) 829-5361</a></div>
+        </div>
+        <div>
+          <div class="label">Directions</div>
+          <div><a class="link" target="_blank" rel="noreferrer" id="mapsText" href="#">Open in Google Maps</a></div>
+        </div>
+      </div>
+      <p class="fineprint">
+        Prices subject to change. Availability may vary. 21+ only.
+      </p>
+    </section>
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+</html>
