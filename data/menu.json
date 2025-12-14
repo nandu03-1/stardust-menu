@@ -293,4 +293,13 @@
     "price": 25,
     "image": "images/geekbar-pulse-15k/california-cherry.png"
   }
+
+
+  {
+    "id": 101,
+    "brand": "Geek Bar Pulse X 25K",
+    "flavor": "Sour Apple Ice",
+    "price": 25,
+    "image": "images/geekbar-pulse-x-25k/sour-apple-ice.png"
+  }
 ]
