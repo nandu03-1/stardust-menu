@@ -47,10 +47,9 @@ body {
 .logo-img {
   width: 100%;
   height: 100%;
-  object-fit: contain;   /* keeps full logo visible */
+  object-fit: contain;
   border-radius: 10px;
 }
-
 
 .brand-text h1 { font-size: 18px; margin: 0; }
 .sub { margin: 2px 0 0; color: var(--muted); font-size: 12px; }
@@ -90,6 +89,17 @@ input, select {
   color: var(--text);
   outline: none;
 }
+
+/* ✅ Bigger category box + bigger brand text */
+#brandSelect {
+  padding: 16px 14px;
+  font-size: 16px;
+  min-height: 56px;
+}
+#brandSelect option {
+  font-size: 16px;
+}
+
 select { cursor: pointer; }
 input::placeholder { color: rgba(166,173,187,.75); }
 
@@ -153,7 +163,7 @@ input::placeholder { color: rgba(166,173,187,.75); }
 /* ✅ Fixed preview box so images never overflow or misalign */
 .product-img-wrap {
   width: 100%;
-  height: 230px; /* adjust: 200 / 230 / 260 based on your images */
+  height: 230px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -237,8 +247,10 @@ input::placeholder { color: rgba(166,173,187,.75); }
   .grid { grid-template-columns: 1fr; }
   .info { grid-template-columns: 1fr; }
 
-  /* Slightly smaller preview box on phones */
   .product-img-wrap { height: 210px; }
+
+  /* Keep dropdown comfy on mobile */
+  #brandSelect { min-height: 54px; font-size: 16px; }
 }
 
 /* Fullscreen image modal */
