@@ -98,13 +98,16 @@ function renderItems(items) {
     return `
       <article class="card">
         <img
-          class="product-img"
-          src="${imgSrc}"
-          alt="${(p.brand ?? "") + " - " + (p.flavor ?? "")}"
-          loading="lazy"
-          referrerpolicy="no-referrer"
-          onerror="this.src='./images/placeholder.png'; this.onerror=null;"
-        />
+  class="product-img"
+  src="${imgSrc}"
+  alt="${(p.brand ?? "") + " - " + (p.flavor ?? "")}"
+  loading="lazy"
+  referrerpolicy="no-referrer"
+  data-full="${imgSrc}"
+  data-caption="${(p.brand ?? "") + " — " + (p.flavor ?? "")}"
+  onerror="this.src='./images/placeholder.png'; this.onerror=null;"
+/>
+
         <h3>${p.flavor ?? ""}</h3>
         <div class="meta">
           <span class="badge">${p.brand ?? ""}</span>
@@ -114,6 +117,53 @@ function renderItems(items) {
     `;
   }).join("");
 }
+
+function setupImageModal() {
+  const modal = document.getElementById("imgModal");
+  const modalImg = document.getElementById("imgModalImage");
+  const caption = document.getElementById("imgModalCaption");
+  const closeBtn = document.getElementById("imgModalClose");
+
+  const open = (src, text) => {
+    modal.classList.add("show");
+    modal.setAttribute("aria-hidden", "false");
+    modalImg.src = src;
+    modalImg.alt = text || "Product image";
+    caption.textContent = text || "";
+    document.body.style.overflow = "hidden"; // prevent background scroll
+  };
+
+  const close = () => {
+    modal.classList.remove("show");
+    modal.setAttribute("aria-hidden", "true");
+    modalImg.src = "";
+    caption.textContent = "";
+    document.body.style.overflow = "";
+  };
+
+  // Click image in grid (event delegation)
+  document.addEventListener("click", (e) => {
+    const img = e.target.closest(".product-img");
+    if (!img) return;
+
+    const src = img.getAttribute("data-full");
+    const text = img.getAttribute("data-caption");
+    if (src) open(src, text);
+  });
+
+  // Close actions
+  closeBtn.addEventListener("click", close);
+  modal.addEventListener("click", (e) => {
+    // click outside the image closes
+    if (e.target === modal) close();
+  });
+
+  // ESC closes
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") close();
+  });
+}
+
 
 function render() {
   const filtered = applyFilters(FLAVORS);
@@ -160,6 +210,7 @@ function setupShopInfo() {
 async function init() {
   setupShopInfo();
   setupAgeGate();
+  setupImageModal();
 
   await loadMenu();
 
