@@ -37,7 +37,7 @@ const FLAVORS = [
   { id: 19, brand: "Geek Bar Pule 15K", flavor: "Strawberry Kiwi", price: 25 },
   { id: 20, brand: "Geek Bar Pule 15K", flavor: "Berry Bliss", price: 25 },
   { id: 21, brand: "Geek Bar Pule 15K", flavor: "Pink Lemonade", price: 25 },
-  { id: 22, brand: "Geek Bar Pule 15K", flavor: "Blue Razz Ice", price: 25 },
+  { id: 22, brand: "Geek Bar Pulse 15K", flavor: "Blue Razz Ice", price: 25 },
   { id: 23, brand: "Geek Bar Pule 15K", flavor: "Blow Pop", price: 25 },
   { id: 24, brand: "Geek Bar Pule 15K", flavor: "White Gummy Ice", price: 25 },
   { id: 25, brand: "Geek Bar Pule 15K", flavor: "Banana Ice", price: 25 },
