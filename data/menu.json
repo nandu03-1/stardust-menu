@@ -881,5 +881,92 @@
     "flavor": "Watermelon With Mint",
     "price": 10,
     "image": "images/lava-plus/watermelonwithmint.webp"
+  },
+  {
+  "id": 301,
+    "brand": "Flair Sniper 45K",
+    "flavor": "Frosted Blue",
+    "price": 35,
+    "image": "images/flair-sniper/blue.png"
+  },
+  "id": 301,
+    "brand": "Flair Sniper 45K",
+    "flavor": "Bombsicle",
+    "price": 35,
+    "image": "images/flair-sniper/bomb.png"
+  },{
+  "id": 301,
+    "brand": "Flair Sniper 45K",
+    "flavor": "Clear Chill",
+    "price": 35,
+    "image": "images/flair-sniper/cc.png"
+  },{
+  "id": 301,
+    "brand": "Flair Sniper 45K",
+    "flavor": "Cherry Strike",
+    "price": 35,
+    "image": "images/flair-sniper/cs.png"
+  },{
+  "id": 301,
+    "brand": "Flair Sniper 45K",
+    "flavor": "Frosted Blue",
+    "price": 35,
+    "image": "images/flair-sniper/blue.png"
+  },
+  {
+    "id": 301,
+    "brand": "Flair Sniper 45K",
+    "flavor": "Fusion Fuel",
+    "price": 35,
+    "image": "images/flair-sniper/ff.png"
+  },
+  {
+    "id": 301,
+    "brand": "Flair Sniper 45K",
+    "flavor": "MenthX",
+    "price": 35,
+    "image": "images/flair-sniper/menth.png"
+  },
+  {
+    "id": 301,
+    "brand": "Flair Sniper 45K",
+    "flavor": "Mint Strom",
+    "price": 35,
+    "image": "images/flair-sniper/mintstrom.png"
+  },
+  {
+    "id": 301,
+    "brand": "Flair Sniper 45K",
+    "flavor": "Mexican Mango",
+    "price": 35,
+    "image": "images/flair-sniper/mm.png"
+  },
+  {
+    "id": 301,
+    "brand": "Flair Sniper 45K",
+    "flavor": "Strawberry B-Pop",
+    "price": 35,
+    "image": "images/flair-sniper/sbp.png"
+  },
+  {
+    "id": 301,
+    "brand": "Flair Sniper 45K",
+    "flavor": "Spearmint Shock",
+    "price": 35,
+    "image": "images/flair-sniper/ss.png"
+  },
+  {
+    "id": 301,
+    "brand": "Flair Sniper 45K",
+    "flavor": "Watermelon Chill Pop",
+    "price": 35,
+    "image": "images/flair-sniper/wcp.png"
+  },
+  {
+    "id": 301,
+    "brand": "Flair Sniper 45K",
+    "flavor": "Wintergreen",
+    "price": 35,
+    "image": "images/flair-sniper/wint.png"
   }
 ]
