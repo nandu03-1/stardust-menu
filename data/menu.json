@@ -886,13 +886,6 @@
   {
   "id": 301,
     "brand": "Flair Sniper 45K",
-    "flavor": "Frosted Blue",
-    "price": 35,
-    "image": "images/flair-sniper/blue.png"
-  },
-  {
-  "id": 301,
-    "brand": "Flair Sniper 45K",
     "flavor": "Bombsicle",
     "price": 35,
     "image": "images/flair-sniper/bomb.png"
@@ -935,9 +928,9 @@
   {
     "id": 301,
     "brand": "Flair Sniper 45K",
-    "flavor": "Mint Strom",
+    "flavor": "Mint Storm",
     "price": 35,
-    "image": "images/flair-sniper/mintstrom.png"
+    "image": "images/flair-sniper/mintstorm.png"
   },
   {
     "id": 301,
