@@ -16,28 +16,28 @@ const SHOP = {
 /* 🔥 Home promo cards */
 const HOME_PROMOS = [
   {
-    title: "🔥 Hot Selling",
-    sub: "Geek Bar Pulse 15K",
-    image: "./images/promos/hot-selling.png",
-    brand: "Geek Bar Pulse 15K"
+    title: "🔥🔥🔥",
+    sub: "Geek Bar 15K 2 for $40",
+    image: "./images/promos/geek15k.png",
+    brand: "Geek Bar Pulse 15K" "
   },
+  //{
+   // title: "⭐ Best Value",
+   // sub: "Geek Bar Pulse X 25K",
+   // image: "./images/promos/best-value.png",
+   // brand: "Geek Bar Pulse X 25K"
+ // },
+  //{
+   // title: "💰 On Sale",
+   // sub: "Flair Sniper 45K",
+   // image: "./images/promos/on-sale.png",
+   // brand: "Flair Sniper 45K"
+  //},
   {
-    title: "⭐ Best Value",
-    sub: "Geek Bar Pulse X 25K",
-    image: "./images/promos/best-value.png",
+    title: "🔥🔥🔥",
+    sub: "GeekBar 25k 2 for $50",
+    image: "./images/promos/geek25k.png",
     brand: "Geek Bar Pulse X 25K"
-  },
-  {
-    title: "💰 On Sale",
-    sub: "Flair Sniper 45K",
-    image: "./images/promos/on-sale.png",
-    brand: "Flair Sniper 45K"
-  },
-  {
-    title: "🎁 Promotions",
-    sub: "Ask in-store for deals",
-    image: "./images/promos/promotions.png",
-    brand: "all"
   }
 ];
 
