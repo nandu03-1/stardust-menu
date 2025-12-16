@@ -44,7 +44,8 @@ const HOME_PROMOS = [
 /* 🧠 Brands that use LIST view */
 const BRAND_META = {
   "Geek Bar Pulse 15K": { view: "list", puffs: "15,000 puffs", price: 25 },
-  "Geek Bar Pulse X 25K": { view: "list", puffs: "25,000 puffs", price: 35 }
+  //"Geek Bar Pulse X 25K": { view: "list", puffs: "25,000 puffs", price: 35 },
+  "Lava Plus": { view: "list", puffs: "2600 puffs", price: 10 }
 };
 
 const el = (id) => document.getElementById(id);
