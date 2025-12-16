@@ -21,18 +21,6 @@ const HOME_PROMOS = [
     image: "./images/promos/geek15k.png",
     brand: "Geek Bar Pulse 15K" "
   },
-  //{
-   // title: "⭐ Best Value",
-   // sub: "Geek Bar Pulse X 25K",
-   // image: "./images/promos/best-value.png",
-   // brand: "Geek Bar Pulse X 25K"
- // },
-  //{
-   // title: "💰 On Sale",
-   // sub: "Flair Sniper 45K",
-   // image: "./images/promos/on-sale.png",
-   // brand: "Flair Sniper 45K"
-  //},
   {
     title: "🔥🔥🔥",
     sub: "GeekBar 25k 2 for $50",
