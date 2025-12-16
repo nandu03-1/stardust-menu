@@ -167,15 +167,16 @@ input::placeholder { color: rgba(166,173,187,.75); }
 
 .promo-sub {
   margin: 0;
-  color: var(--muted);
-  font-size: 12px;
+  font-size: 15px;
+  font-weight: 800;
   line-height: 1.35;
+  color: var(--text);
 }
 .promo-price {
   margin-top: 6px;
   font-size: 15px;
   font-weight: 800;
-  color: #fbbf24; /* gold highlight */
+  color: var(--text); /* gold highlight */
 }
 
 /* Reuse your existing image box look */
