@@ -31,29 +31,29 @@ const HOME_PROMOS = [
   },
   {
     title: "Lava Plus",
-    /*sub: "",*/
-    price: "10",
+    sub: "$10",
+    price: "",
     image: "./images/promos/lavaplus.jpg",
     brand: "Lava Plus"
   },
    {
     title: "Flair Sniper 45K",
-    /*sub: "",*/
-    price: "45",
-    image: "./images/promos/flairsni.jpg",
+    sub: "$35",
+    price: "",
+    image: "./images/promos/flairsni.png",
     brand: "Flair Sniper 45K"
   },
    {
     title: "Cali Ul20000",
-    /*sub: "",*/
-    price: "25",
+    sub: "$25",
+    price: "",
     image: "./images/promos/cali20k.jpg",
     brand: "Cali Ul20000"
   },
   {
     title: "Cali Ul8000",
-    /*sub: "",*/
-    price: "18",
+    sub: "$18",
+    price: "",
     image: "./images/promos/cali8k.jpg",
     brand: "Cali Ul8000"
   },
@@ -61,20 +61,20 @@ const HOME_PROMOS = [
     title: "Raz 25K",
     sub: "$30",
     price: "2 for $50",
-    image: "./images/promos/raz25k.jpg",
+    image: "./images/promos/raz25k.webp",
     brand: "Raz 25K"
   },
    {
     title: "Wave 25K",
-    /*sub: "",*/
-    price: "30",
-    image: "./images/promos/wave25k.jpg",
+    sub: "$30",
+    price: "",
+    image: "./images/promos/wave25k.png",
     brand: "Wave 25K"
   },
    {
     title: "Lava Big Boy",
-    /*sub: "",*/
-    price: "18",
+    sub: "$18",
+    price: "",
     image: "./images/promos/lavabig.jpg",
     brand: "Lava Big Boy"
   }
