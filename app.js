@@ -28,6 +28,55 @@ const HOME_PROMOS = [
     price: "2 for $50",
     image: "./images/promos/geek25k.jpg",
     brand: "Geek Bar Pulse X 25K"
+  },
+  {
+    title: "Lava Plus",
+    /*sub: "",*/
+    price: "10",
+    image: "./images/promos/lavaplus.jpg",
+    brand: "Lava Plus"
+  },
+   {
+    title: "Flair Sniper 45K",
+    /*sub: "",*/
+    price: "45",
+    image: "./images/promos/flairsni.jpg",
+    brand: "Flair Sniper 45K"
+  },
+   {
+    title: "Cali Ul20000",
+    /*sub: "",*/
+    price: "25",
+    image: "./images/promos/cali20k.jpg",
+    brand: "Cali Ul20000"
+  },
+  {
+    title: "Cali Ul8000",
+    /*sub: "",*/
+    price: "18",
+    image: "./images/promos/cali8k.jpg",
+    brand: "Cali Ul8000"
+  },
+   {
+    title: "Raz 25K",
+    sub: "$30",
+    price: "2 for $50",
+    image: "./images/promos/raz25k.jpg",
+    brand: "Raz 25K"
+  },
+   {
+    title: "Wave 25K",
+    /*sub: "",*/
+    price: "30",
+    image: "./images/promos/wave25k.jpg",
+    brand: "Wave 25K"
+  },
+   {
+    title: "Lava Big Boy",
+    /*sub: "",*/
+    price: "18",
+    image: "./images/promos/lavabig.jpg",
+    brand: "Lava Big Boy"
   }
 ];
 
