@@ -1,1 +1,16 @@
-
+[
+  {
+    "id": "geekbar-pulse-15k",
+    "name": "Geek Bar Pulse 15K",
+    "puffs": "15,000 puffs",
+    "price": "$25",
+    "file": "data/brands/geekbar-pulse-15k.json"
+  },
+  {
+    "id": "geekbar-pulse-x-25k",
+    "name": "Geek Bar Pulse X 25K",
+    "puffs": "25,000 puffs",
+    "price": "$30",
+    "file": "data/brands/geekbar-pulse-x-25k.json"
+  }
+]
