@@ -1,0 +1,290 @@
+{
+  "brand": {
+    "name": "Geek Bar Pulse 15K",
+    "puffs": "15,000 puffs",
+    "priceText": "$25",
+    "dealText": "2 for $40"
+  },
+  "flavors": [
+    {
+      "flavor": "Crazy Melon",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/crazy-melon.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Frozen Blackberry Fab",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/frozen-blackberry-fab.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Sour Gush",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/sour-gush.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Iceymintz",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/iceymintz.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Blue Razz Ice",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/blue-razz-ice.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Wild Berry Savers",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/wild-berry-savers.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Pineapple Savers",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/pineapple-savers.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Strawberry Savers",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/strawberry-savers.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Rising Sun",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/rising-sun.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Frozen Strawberry",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/frozen-strawberry.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Strawberry CC",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/strawberry-cc.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Fucking Fab",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/fucking-fab.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Black Cherry",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/black-cherry.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Orange Mint Savers",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/orange-mint-savers.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Frozen Pina Colada",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/frozen-pina-colada.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Dragon Melon",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/dragon-melon.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Sour Watermelon Drop",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/sour-watermelon-drop.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Nectarine Ice",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/nectarine-ice.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Raspberry Watermelon",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/raspberry-watermelon.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Strawberry Kiwi",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/strawberry-kiwi.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Berry Bliss",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/berry-bliss.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Pink Lemonade",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/pink-lemonade.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Meta Moon",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/meta-moon.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Watermelon Ice",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/watermelon-ice.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Blue Mint",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/blue-mint.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Cool Mint",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/cool-mint.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Juicy Peach Ice",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/juicy-peach-ice.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Strawberry Banana",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/strawberry-banana.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Mexico Mango",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/mexico-mango.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Stonemintz",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/stonemintz.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Drop Sour Savers",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/drop-sour-savers.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Cherry Bomb",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/cherry-bomb.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Tropical Rainbow Blast",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/tropical-rainbow-blast.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Frozen Watermelon",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/frozen-watermelon.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Sour Cranapple",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/sour-cranapple.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Frozen White Grape",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/frozen-white-grape.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Sour Apple Ice",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/sour-apple-ice.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Strawberry Mango",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/strawberry-mango.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Miami Mint",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/miami-mint.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "California Cherry",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/california-cherry.png",
+      "tags": [],
+      "soldOut": false
+    }
+  ]
+}

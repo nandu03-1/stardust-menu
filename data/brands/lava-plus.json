@@ -1,0 +1,339 @@
+{
+  "brand": {
+    "name": "Lava Plus",
+    "puffs": "2,600 puffs",
+    "priceText": "$10",
+    "dealText": ""
+  },
+  "flavors": [
+    {
+      "flavor": "Clear Ice",
+      "price": 10,
+      "image": "images/lava-plus/clearice.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Apple Honey",
+      "price": 10,
+      "image": "images/lava-plus/ah.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Apple Peach Ice",
+      "price": 10,
+      "image": "images/lava-plus/api.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Banana",
+      "price": 10,
+      "image": "images/lava-plus/banana.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Black Ice",
+      "price": 10,
+      "image": "images/lava-plus/bi.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Bloom",
+      "price": 10,
+      "image": "images/lava-plus/bllom.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Blueberry Raspberry Lemon",
+      "price": 10,
+      "image": "images/lava-plus/blueberryraspberrylemon.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Blue Moon",
+      "price": 10,
+      "image": "images/lava-plus/bluemoon.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Berry Mist",
+      "price": 10,
+      "image": "images/lava-plus/bm.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Banana Milkshake",
+      "price": 10,
+      "image": "images/lava-plus/bmilk.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Cherry Banana",
+      "price": 10,
+      "image": "images/lava-plus/cb.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Clear",
+      "price": 10,
+      "image": "images/lava-plus/clear.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Coffe Latte",
+      "price": 10,
+      "image": "images/lava-plus/coffeelatte.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Cool Mint",
+      "price": 10,
+      "image": "images/lava-plus/coolmint.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Cubban Tobacco",
+      "price": 10,
+      "image": "images/lava-plus/ct.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Dragon Flume",
+      "price": 10,
+      "image": "images/lava-plus/df.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Fruit Ice",
+      "price": 10,
+      "image": "images/lava-plus/fi.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Fruit Blast",
+      "price": 10,
+      "image": "images/lava-plus/fruitblast.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Grapefruit Ice",
+      "price": 10,
+      "image": "images/lava-plus/gfi.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Guava Ice",
+      "price": 10,
+      "image": "images/lava-plus/gi.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Havana Tobacco",
+      "price": 10,
+      "image": "images/lava-plus/ht.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Ice Grape",
+      "price": 10,
+      "image": "images/lava-plus/ig.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Jolly Rancher Ice",
+      "price": 10,
+      "image": "images/lava-plus/jri.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Kiwi Strawberry",
+      "price": 10,
+      "image": "images/lava-plus/kiwis.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Lemon with Mint",
+      "price": 10,
+      "image": "images/lava-plus/lwm.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Melon Ice",
+      "price": 10,
+      "image": "images/lava-plus/melonice.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Mango Ice",
+      "price": 10,
+      "image": "images/lava-plus/mi.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Miami Mint",
+      "price": 10,
+      "image": "images/lava-plus/mm.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Mojito",
+      "price": 10,
+      "image": "images/lava-plus/moj.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Orange Ice",
+      "price": 10,
+      "image": "images/lava-plus/oi.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Pineapple Coconut Rum",
+      "price": 10,
+      "image": "images/lava-plus/pcr.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Peach Ice",
+      "price": 10,
+      "image": "images/lava-plus/pi.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Peach Mango Watermelon",
+      "price": 10,
+      "image": "images/lava-plus/pmw.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Strawberry Banana",
+      "price": 10,
+      "image": "images/lava-plus/sb.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Strawberry Ice",
+      "price": 10,
+      "image": "images/lava-plus/si.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Strawberry Lemon Mint",
+      "price": 10,
+      "image": "images/lava-plus/slm.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Solo Mint",
+      "price": 10,
+      "image": "images/lava-plus/solomint.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Sex On The Beach",
+      "price": 10,
+      "image": "images/lava-plus/sotb.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Sour Apple Ice",
+      "price": 10,
+      "image": "images/lava-plus/sourai.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Sour Patch",
+      "price": 10,
+      "image": "images/lava-plus/sp.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Spearmint",
+      "price": 10,
+      "image": "images/lava-plus/spearmint.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Splash Ice",
+      "price": 10,
+      "image": "images/lava-plus/spi.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Strawberry Quake",
+      "price": 10,
+      "image": "images/lava-plus/strawberryquake.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Strawberry Watermelon Bubblegum",
+      "price": 10,
+      "image": "images/lava-plus/swb.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Sour Watermelon Candy",
+      "price": 10,
+      "image": "images/lava-plus/swc.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Vanilla Custard",
+      "price": 10,
+      "image": "images/lava-plus/vc.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Watermelon With Mint",
+      "price": 10,
+      "image": "images/lava-plus/watermelonwithmint.webp",
+      "tags": [],
+      "soldOut": false
+    }
+  ]
+}

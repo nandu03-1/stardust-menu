@@ -1,0 +1,94 @@
+{
+  "brand": {
+    "name": "Flair Sniper 45K",
+    "puffs": "45,000 puffs",
+    "priceText": "$35",
+    "dealText": ""
+  },
+  "flavors": [
+    {
+      "flavor": "Bombsicle",
+      "price": 35,
+      "image": "images/flair-sniper/bomb.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Clear Chill",
+      "price": 35,
+      "image": "images/flair-sniper/cc.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Cherry Strike",
+      "price": 35,
+      "image": "images/flair-sniper/cs.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Frosted Blue",
+      "price": 35,
+      "image": "images/flair-sniper/blue.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Fusion Fuel",
+      "price": 35,
+      "image": "images/flair-sniper/ff.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "MenthX",
+      "price": 35,
+      "image": "images/flair-sniper/menth.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Mint Storm",
+      "price": 35,
+      "image": "images/flair-sniper/mintstorm.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Mexican Mango",
+      "price": 35,
+      "image": "images/flair-sniper/mm.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Strawberry B-Pop",
+      "price": 35,
+      "image": "images/flair-sniper/sbp.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Spearmint Shock",
+      "price": 35,
+      "image": "images/flair-sniper/ss.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Watermelon Chill Pop",
+      "price": 35,
+      "image": "images/flair-sniper/wcp.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Wintergreen",
+      "price": 35,
+      "image": "images/flair-sniper/wint.png",
+      "tags": [],
+      "soldOut": false
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "brand": {
+    "name": "Wave 45K",
+    "puffs": "45,000 puffs",
+    "priceText": "$35",
+    "dealText": ""
+  },
+  "flavors": [
+    {
+      "flavor": "Mintopia",
+      "price": 35,
+      "image": "images/wave-45k/wave45k.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Minty Ice",
+      "price": 35,
+      "image": "images/wave-45k/wave45k.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Berry Blast",
+      "price": 35,
+      "image": "images/wave-45k/wave45k.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Peach Ice",
+      "price": 35,
+      "image": "images/wave-45k/wave45k.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Mango Twister",
+      "price": 35,
+      "image": "images/wave-45k/wave45k.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Cherry Bomb",
+      "price": 35,
+      "image": "images/wave-45k/wave45k.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Cranberry Crush",
+      "price": 35,
+      "image": "images/wave-45k/wave45k.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Blue Razz Ice",
+      "price": 35,
+      "image": "images/wave-45k/wave45k.webp",
+      "tags": [],
+      "soldOut": false
+    }
+  ]
+}
