@@ -1,0 +1,48 @@
+{
+  "brand": {
+    "name": "Al Fakher Crown Bar 8K",
+    "puffs": "8,000 puffs",
+    "priceText": "$20",
+    "dealText": ""
+  },
+  "flavors": [
+    { "flavor": "Berry Blue", "price": 20, "image": "images/crown-bar-8k/berry-blue.png", "tags": [], "soldOut": false },
+    { "flavor": "Blue Razz Blast", "price": 20, "image": "images/crown-bar-8k/blue-razz-blast.png", "tags": [], "soldOut": false },
+    { "flavor": "Blue Razz Lemonade", "price": 20, "image": "images/crown-bar-8k/blue-razz-lemonade.png", "tags": [], "soldOut": false },
+    { "flavor": "Blueberry Cherry", "price": 20, "image": "images/crown-bar-8k/blueberry-cherry.png", "tags": [], "soldOut": false },
+    { "flavor": "Blueberry Gum", "price": 20, "image": "images/crown-bar-8k/blueberry-gum.png", "tags": [], "soldOut": false },
+    { "flavor": "Blueberry Mint", "price": 20, "image": "images/crown-bar-8k/blueberry-mint.png", "tags": [], "soldOut": false },
+    { "flavor": "Blueberry Raspberry", "price": 20, "image": "images/crown-bar-8k/blueberry-raspberry.png", "tags": [], "soldOut": false },
+    { "flavor": "Cherry Fiesta", "price": 20, "image": "images/crown-bar-8k/cherry-fiesta.png", "tags": [], "soldOut": false },
+    { "flavor": "Cherry Ice", "price": 20, "image": "images/crown-bar-8k/cherry-ice.png", "tags": [], "soldOut": false },
+
+    { "flavor": "Cool Mango", "price": 20, "image": "images/crown-bar-8k/cool-mango.png", "tags": ["soldout"], "soldOut": true },
+    { "flavor": "Fusion Pop", "price": 20, "image": "images/crown-bar-8k/fusion-pop.png", "tags": [], "soldOut": false },
+    { "flavor": "Grape Berry", "price": 20, "image": "images/crown-bar-8k/grape-berry.png", "tags": [], "soldOut": false },
+    { "flavor": "Grape Mint", "price": 20, "image": "images/crown-bar-8k/grape-mint.png", "tags": [], "soldOut": false },
+    { "flavor": "Gum Mint", "price": 20, "image": "images/crown-bar-8k/gum-mint.png", "tags": [], "soldOut": false },
+    { "flavor": "Hubba", "price": 20, "image": "images/crown-bar-8k/hubba.png", "tags": [], "soldOut": false },
+    { "flavor": "Ice Blue", "price": 20, "image": "images/crown-bar-8k/ice-blue.png", "tags": [], "soldOut": false },
+    { "flavor": "Lemon Lime", "price": 20, "image": "images/crown-bar-8k/lemon-lime.png", "tags": [], "soldOut": false },
+
+    { "flavor": "Lemon Mint", "price": 20, "image": "images/crown-bar-8k/lemon-mint.png", "tags": ["soldout"], "soldOut": true },
+    { "flavor": "Lush Ice", "price": 20, "image": "images/crown-bar-8k/lush-ice.png", "tags": [], "soldOut": false },
+    { "flavor": "Magic Love", "price": 20, "image": "images/crown-bar-8k/magic-love.png", "tags": [], "soldOut": false },
+    { "flavor": "Mango Pineapple", "price": 20, "image": "images/crown-bar-8k/mango-pineapple.png", "tags": [], "soldOut": false },
+    { "flavor": "Mint", "price": 20, "image": "images/crown-bar-8k/mint.png", "tags": [], "soldOut": false },
+    { "flavor": "Mixed Berry", "price": 20, "image": "images/crown-bar-8k/mixed-berry.png", "tags": [], "soldOut": false },
+    { "flavor": "Orange Mint", "price": 20, "image": "images/crown-bar-8k/orange-mint.png", "tags": [], "soldOut": false },
+
+    { "flavor": "Peach Ice", "price": 20, "image": "images/crown-bar-8k/peach-ice.png", "tags": ["soldout"], "soldOut": true },
+    { "flavor": "Pineapple Ice", "price": 20, "image": "images/crown-bar-8k/pineapple-ice.png", "tags": [], "soldOut": false },
+    { "flavor": "Space Dream", "price": 20, "image": "images/crown-bar-8k/space-dream.png", "tags": [], "soldOut": false },
+    { "flavor": "Spearmint", "price": 20, "image": "images/crown-bar-8k/spearmint.png", "tags": [], "soldOut": false },
+    { "flavor": "Strawberry Cherry", "price": 20, "image": "images/crown-bar-8k/strawberry-cherry.png", "tags": [], "soldOut": false },
+
+    { "flavor": "Strawberry Punch", "price": 20, "image": "images/crown-bar-8k/strawberry-punch.png", "tags": ["soldout"], "soldOut": true },
+    { "flavor": "Two Apple", "price": 20, "image": "images/crown-bar-8k/two-apple.png", "tags": ["soldout"], "soldOut": true },
+    { "flavor": "Watermelon Cherry", "price": 20, "image": "images/crown-bar-8k/watermelon-cherry.png", "tags": [], "soldOut": false },
+    { "flavor": "Watermelon Kiwi", "price": 20, "image": "images/crown-bar-8k/watermelon-kiwi.png", "tags": ["soldout"], "soldOut": true },
+    { "flavor": "Watermelon Pineapple", "price": 20, "image": "images/crown-bar-8k/watermelon-pineapple.png", "tags": ["soldout"], "soldOut": true }
+  ]
+}
