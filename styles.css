@@ -321,6 +321,19 @@ input::placeholder { color: rgba(166,173,187,.75); }
   border-color: rgba(239,68,68,.55);
   background: rgba(239,68,68,.14);
 }
+/* Highlight NEW tag in gold */
+.flavor-tag.new{
+  border-color: rgba(245, 158, 11, .65);
+  background: rgba(245, 158, 11, .18);
+  color: rgba(255, 236, 179, .95);
+}
+
+/* Optional: make trending green */
+.flavor-tag.trending{
+  border-color: rgba(34,197,94,.55);
+  background: rgba(34,197,94,.14);
+}
+
 
 .flavor-hint{
   font-size:12px;
