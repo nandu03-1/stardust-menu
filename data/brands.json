@@ -61,5 +61,23 @@
     "dealText": "2 for $50",
     "cardImage": "./images/promos/raz25k.webp",
     "file": "./data/brands/raz-25k.json"
+  },
+   {
+    "id": "cali-ul20000",
+    "name": "Cali Ul20000",
+    "puffs": "20,000 puffs",
+    "priceText": "$25",
+    "dealText": "",
+    "cardImage": "./images/promos/cali20k.png",
+    "file": "./data/brands/cali-ul20000.json"
+  },
+  {
+    "id": "cali-ul8000",
+    "name": "Cali Ul8000",
+    "puffs": "8,000 puffs",
+    "priceText": "$18",
+    "dealText": "",
+    "cardImage": "./images/promos/cali8k.png",
+    "file": "./data/brands/cali-ul8000.json"
   }
 ]
