@@ -68,7 +68,7 @@
     "puffs": "20,000 puffs",
     "priceText": "$25",
     "dealText": "",
-    "cardImage": "./images/promos/cali20k.png",
+    "cardImage": "./images/promos/cali20k.jpg",
     "file": "./data/brands/cali-ul20000.json"
   },
   {
@@ -77,7 +77,7 @@
     "puffs": "8,000 puffs",
     "priceText": "$18",
     "dealText": "",
-    "cardImage": "./images/promos/cali8k.png",
+    "cardImage": "./images/promos/cali8k.jpg",
     "file": "./data/brands/cali-ul8000.json"
   }
 ]
