@@ -1,0 +1,82 @@
+{
+  "brand": {
+    "name": "Foyo Maxx 50K",
+    "puffs": "50,000 puffs",
+    "priceText": "$30",
+    "dealText": ""
+  },
+  "flavors": [
+    {
+      "flavor": "Blue Razz Ice",
+      "price": 30,
+      "image": "images/foyo-maxx-50k/blue-razz-ice.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Clear",
+      "price": 30,
+      "image": "images/foyo-maxx-50k/clear.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Cool Mint",
+      "price": 30,
+      "image": "images/foyo-maxx-50k/cool-mint.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Frozen Pina Colada",
+      "price": 30,
+      "image": "images/foyo-maxx-50k/frozen-pina-colada.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Georgia Peach Ice",
+      "price": 30,
+      "image": "images/foyo-maxx-50k/georgia-peach-ice.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Mexican Mango",
+      "price": 30,
+      "image": "images/foyo-maxx-50k/mexican-mango.png",
+      "tags": [
+        "soldout"
+      ],
+      "soldOut": true
+    },
+    {
+      "flavor": "Miami Mint",
+      "price": 30,
+      "image": "images/foyo-maxx-50k/miami-mint.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Strawberry Mango",
+      "price": 30,
+      "image": "images/foyo-maxx-50k/strawberry-mango.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Tobacco",
+      "price": 30,
+      "image": "images/foyo-maxx-50k/tobacco.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Watermelon Ice",
+      "price": 30,
+      "image": "images/foyo-maxx-50k/watermelon-ice.png",
+      "tags": [],
+      "soldOut": false
+    }
+  ]
+}
