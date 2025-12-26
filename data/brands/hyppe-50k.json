@@ -7,79 +7,121 @@
   },
   "flavors": [
     {
-      "flavor": "Blue Razz Ice",
+      "flavor": "Blue Razz Freeze",
       "price": 35,
-      "image": "images/hyppe-50k/blue-razz-ice.png",
+      "image": "images/hyppe50k/brf.webp",
       "tags": [],
       "soldOut": false
     },
     {
-      "flavor": "Clear",
+      "flavor": "Naked",
       "price": 35,
-      "image": "images/hyppe-50k/clear.png",
+      "image": "images/hyppe50k/n.webp",
       "tags": [],
       "soldOut": false
     },
     {
       "flavor": "Cool Mint",
       "price": 35,
-      "image": "images/hyppe-50k/cool-mint.png",
+      "image": "images/hyppe50k/cm.webp",
       "tags": [],
       "soldOut": false
     },
     {
-      "flavor": "Frozen Grape",
+      "flavor": "Blue Razz Lemonade",
       "price": 35,
-      "image": "images/hyppe-50k/frozen-grape.png",
+      "image": "images/hyppe50k/brl.webp",
       "tags": [],
       "soldOut": false
     },
     {
-      "flavor": "Frozen Strawberry",
+      "flavor": "Chewy Banana Freeze",
       "price": 35,
-      "image": "images/hyppe-50k/frozen-strawberry.png",
+      "image": "images/hyppe50k/cbf.webp",
       "tags": [],
       "soldOut": false
     },
     {
-      "flavor": "Georgia Peach Ice",
+      "flavor": "Chewy Watermelon",
       "price": 35,
-      "image": "images/hyppe-50k/georgia-peach-ice.png",
+      "image": "images/hyppe50k/cw.webp",
       "tags": [],
       "soldOut": false
     },
     {
-      "flavor": "Miami Mint",
+      "flavor": "Mighty Mint",
       "price": 35,
-      "image": "images/hyppe-50k/miami-mint.png",
+      "image": "images/hyppe50k/mm.webp",
       "tags": [],
       "soldOut": false
     },
     {
-      "flavor": "Mexican Mango",
+      "flavor": "Dubai Chocolate",
       "price": 35,
-      "image": "images/hyppe-50k/mexican-mango.png",
+      "image": "images/hyppe50k/n.webp",
       "tags": ["soldout"],
       "soldOut": true
     },
     {
-      "flavor": "Strawberry Banana",
+      "flavor": "Grape Aloe Freeze",
       "price": 35,
-      "image": "images/hyppe-50k/strawberry-banana.png",
+      "image": "images/hyppe50k/gpf.webp",
       "tags": [],
       "soldOut": false
     },
     {
-      "flavor": "Watermelon Ice",
+      "flavor": "Rainbow Loops",
       "price": 35,
-      "image": "images/hyppe-50k/watermelon-ice.png",
+      "image": "images/hyppe50k/rl.webp",
+      "tags": [],
+      "soldOut": false
+    },
+      {
+      "flavor": "Sour Apple Freeze",
+      "price": 35,
+      "image": "images/hyppe50k/saf.webp",
+      "tags": [],
+      "soldOut": false
+    },
+      {
+      "flavor": "Sour Summer Fab",
+      "price": 35,
+      "image": "images/hyppe50k/ssf.webp",
+      "tags": [],
+      "soldOut": false
+    },
+      {
+      "flavor": "Sour Watermelon Freeze",
+      "price": 35,
+      "image": "images/hyppe50k/swf.webp",
+      "tags": [],
+      "soldOut": false
+    },
+      {
+      "flavor": "Straw Razz Freeze",
+      "price": 35,
+      "image": "images/hyppe50k/srf.webp",
+      "tags": [],
+      "soldOut": false
+    },
+      {
+      "flavor": "Strawberry Glow",
+      "price": 35,
+      "image": "images/hyppe50k/sg.webp",
+      "tags": [],
+      "soldOut": false
+    },
+      {
+      "flavor": "Virginia Tobacco",
+      "price": 35,
+      "image": "images/hyppe50k/vt.webp",
       "tags": [],
       "soldOut": false
     },
      {
       "flavor": "Fizzy Cola",
       "price": 35,
-      "image": "images/hyppe-50k/watermelon-ice.png",
+      "image": "images/hyppe50k/fc.png",
       "tags": [],
       "soldOut": false
     }
