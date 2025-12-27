@@ -1,0 +1,94 @@
+{
+  "brand": {
+    "name": "Wave 40K",
+    "puffs": "40,000 puffs",
+    "priceText": "$35",
+    "dealText": ""
+  },
+  "flavors": [
+    {
+      "flavor": "Mintopia",
+      "price": 35,
+      "image": "./images/promos/wave-40k.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Apple Pear",
+      "price": 35,
+      "image": "./images/promos/wave-40k.webp",
+      "tags": [],
+      "soldOut": true
+    },
+    {
+      "flavor": "Minty Ice",
+      "price": 35,
+      "image": "./images/promos/wave-40k.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Berry Blast",
+      "price": 35,
+      "image": "./images/promos/wave-40k.webp",
+      "tags": [],
+      "soldOut": true
+    },
+    {
+      "flavor": "Peach Ice",
+      "price": 35,
+      "image": "./images/promos/wave-40k.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Mango Twister",
+      "price": 35,
+      "image": "./images/promos/wave-40k.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Cherry Bomb",
+      "price": 35,
+      "image": "./images/promos/wave-40k.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Cranberry Crush",
+      "price": 35,
+      "image": "./images/promos/wave-40k.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Blue Razz Ice",
+      "price": 35,
+      "image": "./images/promos/wave-40k.webp",
+      "tags": [],
+      "soldOut": false
+    },
+     {
+      "flavor": "Lush Ice",
+      "price": 35,
+      "image": "./images/promos/wave-40k.webp",
+      "tags": [],
+      "soldOut": false
+    },
+       {
+      "flavor": "Black Ice",
+      "price": 35,
+      "image": "./images/promos/wave-40k.webp",
+      "tags": [],
+      "soldOut": false
+    },
+       {
+      "flavor": "Raspberry Lemon",
+      "price": 35,
+      "image": "./images/promos/wave-40k.webp",
+      "tags": [],
+      "soldOut": false
+    }
+  ]
+}
