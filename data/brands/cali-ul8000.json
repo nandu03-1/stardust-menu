@@ -45,7 +45,7 @@
       "flavor": "Strawberry Banana",
       "price": 18,
       "image": "images/cali8k/sb.webp",
-      "tags": ["soldout"],
+      "tags": [],
       "soldOut": true
     },
     {
@@ -73,7 +73,7 @@
       "flavor": "Frozen Lush",
       "price": 18,
       "image": "images/cali8k/fl.webp",
-      "tags": ["soldout"],
+      "tags": [],
       "soldOut": true
     },
     {
@@ -94,7 +94,7 @@
       "flavor": "Polar Ice",
       "price": 18,
       "image": "images/cali8k/pi.jpg",
-      "tags": ["soldout"],
+      "tags": [],
       "soldOut": true
     },
     {
