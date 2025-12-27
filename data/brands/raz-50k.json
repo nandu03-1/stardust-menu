@@ -9,35 +9,35 @@
     {
       "flavor": "Code Blue",
       "price": 35,
-      "image": "images/raz-50k/code-blue.png",
+      "image": "images/raz50k/cb.jpg",
       "tags": [],
       "soldOut": false
     },
     {
       "flavor": "Code Green",
       "price": 35,
-      "image": "images/raz-50k/code-green.png",
+      "image": "images/raz50k/cg.jpg",
       "tags": [],
       "soldOut": false
     },
     {
       "flavor": "Code Pink",
       "price": 35,
-      "image": "images/raz-50k/code-pink.png",
+      "image": "images/raz50k/cp.jpg",
       "tags": [],
       "soldOut": false
     },
     {
       "flavor": "Code Red",
       "price": 35,
-      "image": "images/raz-50k/code-red.png",
+      "image": "images/raz50k/cr.jpg",
       "tags": [],
       "soldOut": false
     },
     {
       "flavor": "Code White",
       "price": 35,
-      "image": "images/raz-50k/code-white.png",
+      "image": "images/raz50k/cw.jpg",
       "tags": [],
       "soldOut": false
     }
