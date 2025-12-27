@@ -85,7 +85,7 @@
     "name": "Raz 50K",
     "puffs": "50,000 puffs",
     "priceText": "$35",
-    "dealText": "",
+    "dealText": "New",
     "cardImage": "./images/promos/raz50k.jpeg",
     "file": "./data/brands/raz-50k.json"
   },
