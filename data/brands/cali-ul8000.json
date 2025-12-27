@@ -9,98 +9,98 @@
     {
       "flavor": "Clear",
       "price": 18,
-      "image": "images/cali-ul8000/clear.png",
+      "image": "images/cali8k/clear.webp",
       "tags": [],
       "soldOut": false
     },
     {
       "flavor": "Frozen Apple Watermelon",
       "price": 18,
-      "image": "images/cali-ul8000/frozen-apple-watermelon.png",
+      "image": "images/cali8k/faw.png",
       "tags": [],
       "soldOut": false
     },
     {
       "flavor": "Frozen Grape",
       "price": 18,
-      "image": "images/cali-ul8000/frozen-grape.png",
+      "image": "images/cali8k/fg.jpg",
       "tags": [],
       "soldOut": false
     },
     {
       "flavor": "Frozen Peach",
       "price": 18,
-      "image": "images/cali-ul8000/frozen-peach.png",
+      "image": "images/cali8k/fp.jpg",
       "tags": [],
       "soldOut": false
     },
     {
       "flavor": "Frozen Strawberry Raspberry",
       "price": 18,
-      "image": "images/cali-ul8000/frozen-strawberry-raspberry.png",
+      "image": "images/cali8k/fsr.webp",
       "tags": [],
       "soldOut": false
     },
     {
       "flavor": "Strawberry Banana",
       "price": 18,
-      "image": "images/cali-ul8000/strawberry-banana.png",
+      "image": "images/cali8k/sb.webp",
       "tags": ["soldout"],
       "soldOut": true
     },
     {
       "flavor": "Blue Raspberry Lemonade",
       "price": 18,
-      "image": "images/cali-ul8000/blue-raspberry-lemonade.png",
+      "image": "images/cali8k/brl.webp",
       "tags": ["soldout"],
       "soldOut": true
     },
     {
       "flavor": "Frozen Banana",
       "price": 18,
-      "image": "images/cali-ul8000/frozen-banana.png",
+      "image": "images/cali8k/fb.webp",
       "tags": [],
       "soldOut": false
     },
     {
       "flavor": "Frozen Blue Raspberry",
       "price": 18,
-      "image": "images/cali-ul8000/frozen-blue-raspberry.png",
+      "image": "images/cali8k/fbr.webp",
       "tags": [],
       "soldOut": false
     },
     {
       "flavor": "Frozen Lush",
       "price": 18,
-      "image": "images/cali-ul8000/frozen-lush.png",
+      "image": "images/cali8k/fl.webp",
       "tags": ["soldout"],
       "soldOut": true
     },
     {
       "flavor": "Frozen Watermelon",
       "price": 18,
-      "image": "images/cali-ul8000/frozen-watermelon.png",
+      "image": "images/cali8k/fw.webp",
       "tags": ["soldout"],
       "soldOut": true
     },
     {
       "flavor": "Mighty Mint",
       "price": 18,
-      "image": "images/cali-ul8000/mighty-mint.png",
+      "image": "images/cali8k/mightym.webp",
       "tags": [],
       "soldOut": false
     },
     {
       "flavor": "Polar Ice",
       "price": 18,
-      "image": "images/cali-ul8000/polar-ice.png",
+      "image": "images/cali8k/pi.jpg",
       "tags": ["soldout"],
       "soldOut": true
     },
     {
       "flavor": "Strawberry Kiwi",
       "price": 18,
-      "image": "images/cali-ul8000/strawberry-kiwi.png",
+      "image": "images/cali8k/sk.webp",
       "tags": [],
       "soldOut": false
     }
