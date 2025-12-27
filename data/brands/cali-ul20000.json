@@ -87,8 +87,8 @@
       "flavor": "Frozen Grape",
       "price": 25,
       "image": "images/cali20k/fg.jpg",
-      "tags": ["soldout"],
-      "soldOut": true
+      "tags": [],
+      "soldOut": flase
     },
     {
       "flavor": "Frozen Peach",
@@ -108,8 +108,8 @@
       "flavor": "Frozen Watermelon",
       "price": 25,
       "image": "images/cali20k/fw.jpg",
-      "tags": ["soldout"],
-      "soldOut": true
+      "tags": [],
+      "soldOut": false
     },
     {
       "flavor": "Frozen White Grape",
@@ -189,7 +189,7 @@
       "soldOut": false
     },
     {
-      "flavor": "Sour Apple Ice",
+      "flavor": "Frozen Sour Apple",
       "price": 25,
       "image": "images/cali20k/fsa.jpg",
       "tags": [],
@@ -234,6 +234,97 @@
       "flavor": "Tropical Blast",
       "price": 25,
       "image": "images/cali20k/tropb.jpg",
+      "tags": [],
+      "soldOut": false
+    },
+     {
+      "flavor": "Frozen Blackberry",
+      "price": 25,
+      "image": "images/cali20k/fblack.jpg",
+      "tags": [],
+      "soldOut": false
+    },
+     {
+      "flavor": "Frozen Kiwi Lemonade",
+      "price": 25,
+      "image": "images/cali20k/fkl.jpg",
+      "tags": [],
+      "soldOut": false
+    },
+     {
+      "flavor": "Frozen Lush",
+      "price": 25,
+      "image": "images/cali20k/fl.jpg",
+      "tags": [],
+      "soldOut": false
+    },
+     {
+      "flavor": "Frozen Blackberry",
+      "price": 25,
+      "image": "images/cali20k/fblack.jpg",
+      "tags": [],
+      "soldOut": false
+    },
+     {
+      "flavor": "Frozen Sour Peach",
+      "price": 25,
+      "image": "images/cali20k/fsp.jpg",
+      "tags": [],
+      "soldOut": false
+    },
+     {
+      "flavor": "Sour Blue Dust",
+      "price": 25,
+      "image": "images/cali20k/sbd.jpg",
+      "tags": [],
+      "soldOut": false
+    },
+     {
+      "flavor": "Sour Blueberry",
+      "price": 25,
+      "image": "images/cali20k/sblue.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Sour Grape",
+      "price": 25,
+      "image": "images/cali20k/sg.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Sour Lush",
+      "price": 25,
+      "image": "images/cali20k/sl.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Sour Watermelon",
+      "price": 25,
+      "image": "images/cali20k/swater.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Spearmint",
+      "price": 25,
+      "image": "images/cali20k/spearmint.jpg",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Strawberry Kiwi",
+      "price": 25,
+      "image": "images/cali20k/sk.jpg",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Strawberry Mango",
+      "price": 25,
+      "image": "images/cali20k/sm.jpg",
       "tags": [],
       "soldOut": false
     }
