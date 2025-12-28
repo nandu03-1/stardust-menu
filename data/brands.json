@@ -113,7 +113,7 @@
     "puffs": "50,000 puffs",
     "priceText": "$30",
     "dealText": "",
-    "cardImage": "./images/promos/foyo.jpeg",
+    "cardImage": "images/foyo50k/bri.jpeg",
     "file": "./data/brands/foyo-maxx-50k.json"
   },
    {
