@@ -1,3 +1,13 @@
+function setupShopInfo() {
+  if (typeof SHOP === "undefined") {
+    // prevent crash if config not loaded
+    if (el("shopName")) el("shopName").textContent = "Menu";
+    return;
+  }
+  el("shopName").textContent = SHOP.name;
+  
+}
+
 const el = (id) => document.getElementById(id);
 
 function money(n) {
