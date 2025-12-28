@@ -29,14 +29,14 @@
     { "flavor": "Lush Ice", "price": 20, "image": "images/crownBar/li.jpeg", "tags": [], "soldOut": false },
     { "flavor": "Magic Love", "price": 20, "image": "images/crownBar/ml.jpeg", "tags": [], "soldOut": false },
     { "flavor": "Mango Pineapple", "price": 20, "image": "images/crownBar/mp.jpeg", "tags": [], "soldOut": false },
-    { "flavor": "Mint", "price": 20, "image": "images/crownBar/mint.png", "tags": [], "soldOut": false },
+    { "flavor": "Mint", "price": 20, "image": "images/crownBar/cba.webp", "tags": [], "soldOut": false },
     { "flavor": "Mixed Berry", "price": 20, "image": "images/crownBar/cba.webp", "tags": [], "soldOut": false },
     { "flavor": "Orange Mint", "price": 20, "image": "images/crownBar/cba.webp", "tags": [], "soldOut": false },
 
     { "flavor": "Peach Ice", "price": 20, "image": "images/crownBar/pi.jpg", "tags": [], "soldOut": true },
     { "flavor": "Pineapple Ice", "price": 20, "image": "images/crownBar/cba.webp", "tags": [], "soldOut": false },
     { "flavor": "Space Dream", "price": 20, "image": "images/crownBar/sd.jpeg", "tags": [], "soldOut": false },
-    { "flavor": "Spearmint", "price": 20, "image": "images/crownBar/spearmint.png", "tags": [], "soldOut": false },
+    { "flavor": "Spearmint", "price": 20, "image": "images/crownBar/cba.webp", "tags": [], "soldOut": false },
     { "flavor": "Strawberry Cherry", "price": 20, "image": "images/crownBar/cba.webp", "tags": [], "soldOut": false },
 
     { "flavor": "Strawberry Punch", "price": 20, "image": "images/crownBar/sp.jpeg", "tags": [], "soldOut": true },
