@@ -1,11 +1,5 @@
 const SHOP = {
-  name: "Stardust Smoke Shop",
-  phone: "+19088295361",
-  phoneDisplay: "(908) 829-5361",
-  address: "626 US-206 Unit-4, Hillsborough Township, NJ 08844",
-  hours: "Mon–Sun: 8 AM – 12 AM",
-  mapsLink:
-    "https://www.google.com/maps/place/Stardust+Smoke+Shop+%26+convenience+store+(premium+cigar+shop)/@40.5001418,-74.6500179,17z"
+  name: "Menu",
 };
 
 const el = (id) => document.getElementById(id);
