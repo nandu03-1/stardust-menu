@@ -1,25 +1,13 @@
-// =========================
-// Stardust Smoke Shop Menu
-// Home = Brand Cards
-// Brand page = List (thumb on left) + Fullscreen modal
-// Separate file per brand (data/brands.json + data/brands/*.json)
-// =========================
-
-const SHOP = {
-  name: "Stardust Smoke Shop",
-  phone: "+19088295361",
-  phoneDisplay: "(908) 829-5361",
-  address: "626 US-206 Unit-4, Hillsborough Township, NJ 08844",
-  hours: "Mon–Sun: 8 AM – 12 AM",
-  mapsLink:
-    "https://www.google.com/maps/place/Stardust+Smoke+Shop+%26+convenience+store+(premium+cigar+shop)/@40.5001418,-74.6500179,17z"
-};
-
 const el = (id) => document.getElementById(id);
 
 function money(n) {
   if (typeof n !== "number" || Number.isNaN(n)) return "—";
   return n.toLocaleString(undefined, { style: "currency", currency: "USD" });
+}
+
+/* ---------- Search helpers ---------- */
+function getSearchQuery() {
+  return (el("searchInput")?.value || "").trim().toLowerCase();
 }
 
 /* ---------- History helpers (Back gesture behavior) ---------- */
@@ -31,8 +19,9 @@ function pushAppState(state) {
 }
 
 /* ---------- Global data ---------- */
-let BRANDS = [];        // from data/brands.json
+let BRANDS = [];         // from data/brands.json
 let ACTIVE_BRAND = null; // currently loaded brand file
+let ALL_FLAVORS = [];    // global search index (built from all brand files)
 
 /* ---------- Loaders ---------- */
 async function loadBrandsIndex() {
@@ -62,6 +51,35 @@ async function loadBrandFile(brandId) {
     meta: data.brand || { name: b.name, puffs: b.puffs, priceText: b.priceText, dealText: b.dealText },
     flavors: data.flavors || []
   };
+}
+
+/* Build global search index by loading all brand files once */
+async function buildGlobalSearchIndex() {
+  const results = await Promise.all(
+    BRANDS.map(async (b) => {
+      try {
+        const res = await fetch(b.file, { cache: "no-store" });
+        if (!res.ok) throw new Error(`Failed to load ${b.file}`);
+        const data = await res.json();
+        const flavors = Array.isArray(data?.flavors) ? data.flavors : [];
+
+        return flavors.map((f) => ({
+          brandId: b.id,
+          brandName: (data?.brand?.name || b.name || ""),
+          flavor: f.flavor || "",
+          price: f.price,
+          image: f.image || "",
+          tags: Array.isArray(f.tags) ? f.tags : [],
+          soldOut: !!f.soldOut
+        }));
+      } catch (e) {
+        console.warn(e);
+        return [];
+      }
+    })
+  );
+
+  ALL_FLAVORS = results.flat();
 }
 
 /* ---------- Dropdown ---------- */
@@ -122,7 +140,8 @@ function showHome(push = true) {
   const grid = el("productGrid");
   if (grid) grid.style.display = "none";
 
-  el("resultsCount").textContent = "Select a brand";
+  // NOTE: resultsCount is removed in your requested UI changes
+  // if element exists, we won't touch it.
 
   if (push) pushAppState({ view: "home" });
 }
@@ -145,33 +164,46 @@ function setBrandHeader() {
 function sortFlavorsForUX(items) {
   const score = (f) => {
     const tags = Array.isArray(f.tags) ? f.tags.map(t => String(t).toLowerCase()) : [];
-
-    // lower = higher priority
     if (tags.includes("new")) return 0;
     if (tags.includes("trending")) return 1;
     return 2;
   };
 
   return items.slice().sort((a, b) => {
-    // sold out always bottom
     const aSold = !!a.soldOut;
     const bSold = !!b.soldOut;
     if (aSold !== bSold) return aSold ? 1 : -1;
 
-    // NEW / TRENDING priority
     const aScore = score(a);
     const bScore = score(b);
     if (aScore !== bScore) return aScore - bScore;
 
-    // alphabet
     return (a.flavor || "").localeCompare(b.flavor || "");
   });
 }
 
+function buildTagHtml(tags, soldOut) {
+  const safeTags = Array.isArray(tags) ? tags : [];
+  const tagHtml = [
+    ...safeTags.map((t) => {
+      const tt = String(t).toLowerCase();
+      const cls =
+        tt === "new" ? "flavor-tag new" :
+        tt === "trending" ? "flavor-tag trending" :
+        tt === "soldout" ? "flavor-tag soldout" :
+        "flavor-tag";
+      return `<span class="${cls}">${tt.toUpperCase()}</span>`;
+    }),
+    soldOut ? `<span class="flavor-tag soldout">SOLD OUT</span>` : ""
+  ].join("");
 
+  return tagHtml;
+}
+
+/* Brand-only list render (filters within ACTIVE_BRAND) */
 function renderFlavorList() {
   const list = el("flavorList");
-  const q = (el("searchInput")?.value || "").trim().toLowerCase();
+  const q = getSearchQuery();
 
   let items = (ACTIVE_BRAND?.flavors || []).slice();
 
@@ -181,7 +213,82 @@ function renderFlavorList() {
 
   items = sortFlavorsForUX(items);
 
-  el("resultsCount").textContent = `${items.length} flavor${items.length === 1 ? "" : "s"}`;
+  if (!items.length) {
+    list.innerHTML = `
+      <div class="card">
+        <h3>No matches</h3>
+        <p class="desc">Try a different search term.</p>
+      </div>
+    `;
+    return;
+  }
+
+  const brandNameForCaption = (ACTIVE_BRAND?.meta?.name || ACTIVE_BRAND?.card?.name || "");
+
+  list.innerHTML = items.map((p) => {
+    const img = p.image || "./images/placeholder.png";
+    const tags = Array.isArray(p.tags) ? p.tags : [];
+    const soldOut = !!p.soldOut;
+
+    const tagHtml = buildTagHtml(tags, soldOut);
+
+    return `
+      <div class="flavor-row" data-src="${img}" data-caption="${brandNameForCaption} — ${(p.flavor || "")}">
+        <div class="flavor-thumb">
+          <img src="${img}" alt="${p.flavor || ""}" loading="lazy"
+               onerror="this.src='./images/placeholder.png'; this.onerror=null;" />
+        </div>
+
+        <div class="flavor-main">
+          <div class="flavor-top">
+            <div class="flavor-name">${p.flavor || ""}</div>
+            <div class="flavor-price">${typeof p.price === "number" ? money(p.price) : (p.price || "")}</div>
+          </div>
+          <div class="flavor-bottom">
+            <div class="flavor-tags">${tagHtml}</div>
+            <div class="flavor-hint">Tap to view image</div>
+          </div>
+        </div>
+      </div>
+    `;
+  }).join("");
+
+  list.querySelectorAll(".flavor-row").forEach((row) => {
+    row.addEventListener("click", () => openImageModal(row.dataset.src, row.dataset.caption));
+  });
+}
+
+/* Global search render (filters across ALL brands) */
+function renderGlobalSearchResults() {
+  const list = el("flavorList");
+  const q = getSearchQuery();
+
+  // if empty search => go back to home cards
+  if (!q) {
+    showHome(true);
+    renderHomeCards();
+    return;
+  }
+
+  // hide home, show list panel
+  el("homePromos").style.display = "none";
+  el("brandPanel")?.classList.remove("hidden");
+  const grid = el("productGrid");
+  if (grid) grid.style.display = "none";
+
+  // header for search results
+  el("brandTitle").textContent = "Search Results";
+  el("brandPuffs").textContent = "All brands";
+  el("brandPrice").textContent = "";
+
+  // match flavor (and brand name as a bonus)
+  let items = ALL_FLAVORS.filter((p) => {
+    const flavor = (p.flavor || "").toLowerCase();
+    const brand = (p.brandName || "").toLowerCase();
+    return flavor.includes(q) || brand.includes(q);
+  });
+
+  items = sortFlavorsForUX(items);
 
   if (!items.length) {
     list.innerHTML = `
@@ -198,18 +305,11 @@ function renderFlavorList() {
     const tags = Array.isArray(p.tags) ? p.tags : [];
     const soldOut = !!p.soldOut;
 
-    const tagHtml = [
-  ...tags.map((t) => {
-    const tt = String(t).toLowerCase();
-    const cls = tt === "new" ? "flavor-tag new" : (tt === "trending" ? "flavor-tag trending" : "flavor-tag");
-    return `<span class="${cls}">${tt.toUpperCase()}</span>`;
-  }),
-  soldOut ? `<span class="flavor-tag soldout">SOLD OUT</span>` : ""
-].join("");
-
+    const tagHtml = buildTagHtml(tags, soldOut);
+    const caption = `${p.brandName || ""} — ${p.flavor || ""}`;
 
     return `
-      <div class="flavor-row" data-src="${img}" data-caption="${(ACTIVE_BRAND.meta.name || "")} — ${(p.flavor || "")}">
+      <div class="flavor-row" data-src="${img}" data-caption="${caption}">
         <div class="flavor-thumb">
           <img src="${img}" alt="${p.flavor || ""}" loading="lazy"
                onerror="this.src='./images/placeholder.png'; this.onerror=null;" />
@@ -221,7 +321,10 @@ function renderFlavorList() {
             <div class="flavor-price">${typeof p.price === "number" ? money(p.price) : (p.price || "")}</div>
           </div>
           <div class="flavor-bottom">
-            <div class="flavor-tags">${tagHtml}</div>
+            <div class="flavor-tags">
+              ${tagHtml}
+              <span class="flavor-tag">${p.brandName || ""}</span>
+            </div>
             <div class="flavor-hint">Tap to view image</div>
           </div>
         </div>
@@ -293,13 +396,16 @@ function setupBackBehavior() {
     }
 
     if (state.view === "modal") {
-      // load underlying brand
+      // load underlying view
       el("brandSelect").value = state.brandId || "home";
+
       if (state.brandId && state.brandId !== "home") {
         await showBrand(state.brandId, true);
       } else {
         showHome(false);
         renderHomeCards();
+        // if there was a search active, re-render results
+        if (getSearchQuery()) renderGlobalSearchResults();
       }
 
       // reopen modal
@@ -319,6 +425,7 @@ function setupBackBehavior() {
     el("brandSelect").value = "home";
     showHome(false);
     renderHomeCards();
+    if (getSearchQuery()) renderGlobalSearchResults();
   });
 }
 
@@ -349,14 +456,18 @@ function setupAgeGate() {
 }
 
 function setupShopInfo() {
+  // If you removed Call/Directions + footer store info as requested,
+  // you can keep only the shop name.
   el("shopName").textContent = SHOP.name;
-  el("callBtn").href = `tel:${SHOP.phone}`;
-  el("mapBtn").href = SHOP.mapsLink;
 
-  el("hoursText").textContent = SHOP.hours;
-  el("addressText").textContent = SHOP.address;
-  el("phoneText").textContent = SHOP.phoneDisplay;
-  el("mapsText").href = SHOP.mapsLink;
+  // These elements may be removed from HTML; guard them.
+  if (el("callBtn")) el("callBtn").href = `tel:${SHOP.phone}`;
+  if (el("mapBtn")) el("mapBtn").href = SHOP.mapsLink;
+
+  if (el("hoursText")) el("hoursText").textContent = SHOP.hours;
+  if (el("addressText")) el("addressText").textContent = SHOP.address;
+  if (el("phoneText")) el("phoneText").textContent = SHOP.phoneDisplay;
+  if (el("mapsText")) el("mapsText").href = SHOP.mapsLink;
 }
 
 /* ---------- Init ---------- */
@@ -368,6 +479,9 @@ async function init() {
 
   await loadBrandsIndex();
   renderBrandDropdown();
+
+  // Build global search index (enables Home search across all brands)
+  await buildGlobalSearchIndex();
 
   // events
   el("brandSelect").onchange = async () => {
@@ -385,9 +499,17 @@ async function init() {
     await showBrand(val, false);
   };
 
-  el("searchInput").oninput = () => {
-    // just re-render list for current brand
-    if (el("brandSelect").value !== "home") renderFlavorList();
+  el("searchInput").oninput = async () => {
+    const current = el("brandSelect").value;
+
+    // HOME: search across all brands
+    if (current === "home") {
+      renderGlobalSearchResults();
+      return;
+    }
+
+    // BRAND: only that brand flavors
+    renderFlavorList();
   };
 
   // start Home
