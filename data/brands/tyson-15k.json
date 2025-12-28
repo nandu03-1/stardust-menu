@@ -9,148 +9,148 @@
     {
       "flavor": "Blueberry Lychee",
       "price": 22,
-      "image": "images/tyson-15k/blueberry-lychee.png",
+      "image": "images/tyson15k/bl.webp",
       "tags": [],
       "soldOut": false
     },
     {
       "flavor": "Cake",
       "price": 22,
-      "image": "images/tyson-15k/cake.png",
+      "image": "images/tyson15k/ake.webp",
       "tags": [],
       "soldOut": false
     },
     {
       "flavor": "California Cherry",
       "price": 22,
-      "image": "images/tyson-15k/california-cherry.png",
-      "tags": ["soldout"],
+      "image": "images/tyson15k/ccherry.webp",
+      "tags": [],
       "soldOut": true
     },
     {
       "flavor": "Clear",
       "price": 22,
-      "image": "images/tyson-15k/clear.png",
+      "image": "images/tyson15k/clear.webp",
       "tags": [],
       "soldOut": false
     },
     {
       "flavor": "Cool Mint",
       "price": 22,
-      "image": "images/tyson-15k/cool-mint.png",
+      "image": "images/tyson15k/cm.webp",
       "tags": [],
       "soldOut": false
     },
     {
       "flavor": "Frozen Banana",
       "price": 22,
-      "image": "images/tyson-15k/frozen-banana.png",
+      "image": "images/tyson15k/fb.webp",
       "tags": [],
       "soldOut": false
     },
     {
       "flavor": "Frozen Grape",
       "price": 22,
-      "image": "images/tyson-15k/frozen-grape.png",
-      "tags": ["soldout"],
+      "image": "images/tyson15k/fg.webp",
+      "tags": [],
       "soldOut": true
     },
     {
       "flavor": "Frozen Mango",
       "price": 22,
-      "image": "images/tyson-15k/frozen-mango.png",
+      "image": "images/tyson15k/fm.webp",
       "tags": [],
       "soldOut": false
     },
     {
       "flavor": "Frozen Peach",
       "price": 22,
-      "image": "images/tyson-15k/frozen-peach.png",
+      "image": "images/tyson15k/fp.webp",
       "tags": [],
       "soldOut": false
     },
     {
       "flavor": "Grape Razz",
       "price": 22,
-      "image": "images/tyson-15k/grape-razz.png",
+      "image": "images/tyson15k/gr.webp",
       "tags": [],
       "soldOut": false
     },
     {
       "flavor": "Menthol",
       "price": 22,
-      "image": "images/tyson-15k/menthol.png",
+      "image": "images/tyson15k/mentho.webp",
       "tags": [],
       "soldOut": false
     },
     {
       "flavor": "Peach Mango",
       "price": 22,
-      "image": "images/tyson-15k/peach-mango.png",
+      "image": "images/tyson15k/pm.webp",
       "tags": [],
       "soldOut": false
     },
     {
       "flavor": "Peach Raspberry",
       "price": 22,
-      "image": "images/tyson-15k/peach-raspberry.png",
-      "tags": ["soldout"],
+      "image": "images/tyson15k/pr.webp",
+      "tags": [],
       "soldOut": true
     },
     {
       "flavor": "Peach Watermelon",
       "price": 22,
-      "image": "images/tyson-15k/peach-watermelon.png",
+      "image": "images/tyson15k/pw.webp",
       "tags": [],
       "soldOut": false
     },
     {
       "flavor": "Pineapple Mango",
       "price": 22,
-      "image": "images/tyson-15k/pineapple-mango.png",
+      "image": "images/tyson15k/pmango.webp",
       "tags": [],
       "soldOut": false
     },
     {
       "flavor": "Pineapple Sour Berry",
       "price": 22,
-      "image": "images/tyson-15k/pineapple-sour-berry.png",
+      "image": "images/tyson15k/psb.webp",
       "tags": [],
       "soldOut": false
     },
     {
       "flavor": "Strawberry Whip",
       "price": 22,
-      "image": "images/tyson-15k/strawberry-whip.png",
+      "image": "images/tyson15k/sw.webp",
       "tags": [],
       "soldOut": false
     },
     {
       "flavor": "Tobacco",
       "price": 22,
-      "image": "images/tyson-15k/tobacco.png",
+      "image": "images/tyson15k/t.webp",
       "tags": [],
       "soldOut": false
     },
     {
       "flavor": "Watermelon",
       "price": 22,
-      "image": "images/tyson-15k/watermelon.png",
-      "tags": ["soldout"],
+      "image": "images/tyson15k/w.webp",
+      "tags": [],
       "soldOut": true
     },
     {
       "flavor": "Watermelon Bubble Gum",
       "price": 22,
-      "image": "images/tyson-15k/watermelon-bubble-gum.png",
+      "image": "images/tyson15k/wbg.webp",
       "tags": [],
       "soldOut": false
     },
     {
       "flavor": "Watermelon Gummies",
       "price": 22,
-      "image": "images/tyson-15k/watermelon-gummies.png",
-      "tags": ["soldout"],
+      "image": "images/tyson15k/wgummies.webp",
+      "tags": [],
       "soldOut": true
     }
   ]
