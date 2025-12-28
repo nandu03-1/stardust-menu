@@ -140,7 +140,7 @@
     "puffs": "15,000 puffs",
     "priceText": "$22",
     "dealText": "",
-    "cardImage": "./images/promos/tyson15k.jpeg",
+    "cardImage": "./images/promos/tyson-15k.webp",
     "file": "./data/brands/tyson-15k.json"
   }
 ]
