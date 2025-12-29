@@ -75,7 +75,7 @@
       "price": 28,
       "image": "images/tyson30k/fs.jpg",
       "tags": [],
-      "soldOut": false
+      "soldOut": true
     },
     {
       "flavor": "Frozen Blueberry",
