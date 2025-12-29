@@ -7,7 +7,7 @@
   },
   "flavors": [
     {
-      "flavor": "Clear Ice",
+      "flavor": "Clear Ice 5% & 3%",
       "price": 10,
       "image": "images/lava-plus/clearice.webp",
       "tags": [],
@@ -21,7 +21,7 @@
       "soldOut": false
     },
     {
-      "flavor": "Apple Peach Ice",
+      "flavor": "Apple Peach Ice 3%",
       "price": 10,
       "image": "images/lava-plus/api.webp",
       "tags": [],
@@ -31,6 +31,13 @@
       "flavor": "Banana",
       "price": 10,
       "image": "images/lava-plus/banana.webp",
+      "tags": [],
+      "soldOut": false
+    },
+      {
+      "flavor": "Banana Milkshake",
+      "price": 10,
+      "image": "images/lava-plus/bmilk.webp",
       "tags": [],
       "soldOut": false
     },
@@ -49,7 +56,7 @@
       "soldOut": false
     },
     {
-      "flavor": "Blueberry Raspberry Lemon",
+      "flavor": "Blueberry Raspberry Lemon 3%",
       "price": 10,
       "image": "images/lava-plus/blueberryraspberrylemon.webp",
       "tags": [],
@@ -63,16 +70,9 @@
       "soldOut": false
     },
     {
-      "flavor": "Berry Mist",
+      "flavor": "Berry Mist 3%",
       "price": 10,
       "image": "images/lava-plus/bm.webp",
-      "tags": [],
-      "soldOut": false
-    },
-    {
-      "flavor": "Banana Milkshake",
-      "price": 10,
-      "image": "images/lava-plus/bmilk.webp",
       "tags": [],
       "soldOut": false
     },
@@ -105,7 +105,7 @@
       "soldOut": false
     },
     {
-      "flavor": "Cubban Tobacco",
+      "flavor": "Cubban Tobacco 3%",
       "price": 10,
       "image": "images/lava-plus/ct.webp",
       "tags": [],
@@ -126,7 +126,7 @@
       "soldOut": false
     },
     {
-      "flavor": "Fruit Blast",
+      "flavor": "Fruit Blast 3%",
       "price": 10,
       "image": "images/lava-plus/fruitblast.webp",
       "tags": [],
@@ -140,6 +140,13 @@
       "soldOut": false
     },
     {
+      "flavor": "Grape Soda",
+      "price": 10,
+      "image": "images/lava-plus/gs.png",
+      "tags": ["New"],
+      "soldOut": false
+    },
+    {
       "flavor": "Guava Ice",
       "price": 10,
       "image": "images/lava-plus/gi.webp",
@@ -147,14 +154,21 @@
       "soldOut": false
     },
     {
-      "flavor": "Havana Tobacco",
+      "flavor": "Havana Tobacco 3%",
       "price": 10,
       "image": "images/lava-plus/ht.webp",
       "tags": [],
       "soldOut": false
     },
     {
-      "flavor": "Ice Grape",
+      "flavor": "Icy Mint",
+      "price": 10,
+      "image": "images/lava-plus/im.png",
+      "tags": ["New"],
+      "soldOut": false
+    },
+    {
+      "flavor": "Ice Grape 3%",
       "price": 10,
       "image": "images/lava-plus/ig.webp",
       "tags": [],
@@ -196,7 +210,7 @@
       "soldOut": false
     },
     {
-      "flavor": "Miami Mint",
+      "flavor": "Miami Mint 3%",
       "price": 10,
       "image": "images/lava-plus/mm.webp",
       "tags": [],
@@ -210,10 +224,17 @@
       "soldOut": false
     },
     {
-      "flavor": "Orange Ice",
+      "flavor": "Orange Ice 3%",
       "price": 10,
       "image": "images/lava-plus/oi.webp",
       "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Passion Fruit Orange Guava",
+      "price": 10,
+      "image": "images/lava-plus/pog.jpeg",
+      "tags": ["New"],
       "soldOut": false
     },
     {
@@ -235,6 +256,13 @@
       "price": 10,
       "image": "images/lava-plus/pmw.webp",
       "tags": [],
+      "soldOut": false
+    },
+     {
+      "flavor": "Pineapple Mango Sour",
+      "price": 10,
+      "image": "images/lava-plus/pms.png",
+      "tags": ["New"],
       "soldOut": false
     },
     {
@@ -259,7 +287,7 @@
       "soldOut": false
     },
     {
-      "flavor": "Solo Mint",
+      "flavor": "Solo Mint 3%",
       "price": 10,
       "image": "images/lava-plus/solomint.webp",
       "tags": [],
@@ -287,7 +315,7 @@
       "soldOut": false
     },
     {
-      "flavor": "Spearmint",
+      "flavor": "Spearmint 3%",
       "price": 10,
       "image": "images/lava-plus/spearmint.webp",
       "tags": [],
@@ -322,7 +350,7 @@
       "soldOut": false
     },
     {
-      "flavor": "Vanilla Custard",
+      "flavor": "Vanilla Custard 3%",
       "price": 10,
       "image": "images/lava-plus/vc.webp",
       "tags": [],
