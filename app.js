@@ -104,7 +104,21 @@ function renderHomeCards() {
   const wrap = el("homePromos");
   if (!wrap) return;
 
-  wrap.innerHTML = BRANDS.map((b) => {
+  // Sort brands
+  const sorted = BRANDS.slice().sort((a, b) => {
+    // 1) clearance (dealText includes “clearance” or “clear”)
+    const aClear = (a.dealText || "").toLowerCase().includes("clear");
+    const bClear = (b.dealText || "").toLowerCase().includes("clear");
+    if (aClear && !bClear) return -1;
+    if (!aClear && bClear) return 1;
+
+    // 2) numeric price (parse b.priceText or fallback)
+    const pa = parseFloat((a.priceText || "").replace(/[^0-9.]/g, "")) || 0;
+    const pb = parseFloat((b.priceText || "").replace(/[^0-9.]/g, "")) || 0;
+    return pa - pb;
+  });
+
+  wrap.innerHTML = sorted.map((b) => {
     const deal = (b.dealText || "").trim();
     const price = (b.priceText || "").trim();
     return `
@@ -126,15 +140,14 @@ function renderHomeCards() {
   wrap.querySelectorAll(".promo-card").forEach((card) => {
     card.addEventListener("click", async () => {
       const brandId = card.dataset.brandid;
-
       el("brandSelect").value = brandId;
       pushAppState({ view: "brand", brandId });
-
       await showBrand(brandId, true);
       window.scrollTo({ top: 0, behavior: "smooth" });
     });
   });
 }
+
 
 function showHome(push = true) {
   el("homePromos").style.display = "";
