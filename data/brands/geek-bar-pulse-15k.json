@@ -66,7 +66,7 @@
       "flavor": "Rising Sun",
       "price": 25,
       "image": "images/geekbar-pulse-15k/rising-sun.webp",
-      "tags": [],
+      "tags": ["New"],
       "soldOut": false
     },
     {
@@ -129,21 +129,21 @@
       "flavor": "Nectarine Ice",
       "price": 25,
       "image": "images/geekbar-pulse-15k/nectarine-ice.webp",
-      "tags": [],
+      "tags": ["New"],
       "soldOut": false
     },
     {
       "flavor": "Raspberry Watermelon",
       "price": 25,
       "image": "images/geekbar-pulse-15k/raspberry-watermelon.png",
-      "tags": [],
+      "tags": ["New"],
       "soldOut": false
     },
     {
       "flavor": "Strawberry Kiwi",
       "price": 25,
       "image": "images/geekbar-pulse-15k/strawberry-kiwi.png",
-      "tags": [],
+      "tags": ["New"],
       "soldOut": false
     },
     {
@@ -283,6 +283,125 @@
       "flavor": "California Cherry",
       "price": 25,
       "image": "images/geekbar-pulse-15k/california-cherry.png",
+      "tags": [],
+      "soldOut": false
+    },
+     {
+      "flavor": "Peach Lemonade",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/pl.webp",
+      "tags": ["New"],
+      "soldOut": false
+    },
+     {
+      "flavor": "Punch",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/punch.webp",
+      "tags": ["New"],
+      "soldOut": false
+    },
+     {
+      "flavor": "Banana Ice",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/bi.webp",
+      "tags": ["New"],
+      "soldOut": false
+    },
+       {
+      "flavor": "Sour Apple B Pop",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/sour-apple-b-pop.png",
+      "tags": [],
+      "soldOut": true
+    },
+     {
+      "flavor": "Frozen Cherry Apple",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/fca.webp",
+      "tags": [],
+      "soldOut": true
+    },
+     {
+      "flavor": "Peppermintz",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/pepper.webp",
+      "tags": [],
+      "soldOut": true
+    },
+     {
+      "flavor": "Omg B-Pop",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/omg-b-pop.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Sour Strawberry",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/sour-strawberry.png",
+      "tags": [],
+      "soldOut": false
+    },
+     {
+      "flavor": "Sour Blue Dust",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/sour-blue-dust.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Creamymintz",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/cream.jpeg",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Blackmintz",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/black.jpg",
+      "tags": [],
+      "soldOut": false
+    },
+     {
+      "flavor": "Orange Creamsicle",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/orange-creamsicle.png",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Grape Lemon",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/grape-lemon.png",
+      "tags": [],
+      "soldOut": false
+    },
+        {
+      "flavor": "Grape B-Pop",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/grape-b-pop.png",
+      "tags": [],
+      "soldOut": false
+    },
+        {
+      "flavor": "White Gummy Ice",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/white-gummy-ice.png",
+      "tags": [],
+      "soldOut": false
+    },
+        {
+      "flavor": "Blow Pop",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/b-pop.png",
+      "tags": [],
+      "soldOut": false
+    },
+       {
+      "flavor": "Blueberry Watermelon",
+      "price": 25,
+      "image": "images/geekbar-pulse-15k/blueberry-watermelon.png",
       "tags": [],
       "soldOut": false
     }
