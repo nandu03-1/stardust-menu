@@ -18,14 +18,14 @@
       "price": 30,
       "image": "images/Raz-25k/clear.webp",
       "tags": [],
-      "soldOut": false
+      "soldOut": true
     },
     {
       "flavor": "Clear Diamond",
       "price": 30,
       "image": "images/Raz-25k/cd.webp",
       "tags": [],
-      "soldOut": false
+      "soldOut": true
     },
     {
       "flavor": "Clear Sapphire",
@@ -67,19 +67,19 @@
       "price": 30,
       "image": "images/Raz-25k/fb.webp",
       "tags": [],
-      "soldOut": false
+      "soldOut": true
     },
     {
       "flavor": "Frozen Dragon Fruit Lemon",
       "price": 30,
       "image": "images/Raz-25k/fdl.webp",
       "tags": [],
-      "soldOut": false
+      "soldOut": true
     },
     {
       "flavor": "Hawaiian Punch",
       "price": 30,
-      "image": "images/Raz-25k/hp.webp",
+      "image": "images/Raz-25k/hw.webp",
       "tags": [],
       "soldOut": false
     },
@@ -93,7 +93,7 @@
     {
       "flavor": "Pink Lemonade Minty O's",
       "price": 30,
-      "image": "images/Raz-25k/raz25k.webp",
+      "image": "images/Raz-25k/pl.webp",
       "tags": [],
       "soldOut": false
     },
@@ -105,9 +105,9 @@
       "soldOut": false
     },
     {
-      "flavor": "Tripple Berry Gush",
+      "flavor": "Triple Berry Gush",
       "price": 30,
-      "image": "images/Raz-25k/tbg.webp",
+      "image": "images/Raz-25k/tg.webp",
       "tags": [],
       "soldOut": false
     },
@@ -115,6 +115,13 @@
       "flavor": "Strawberry Burst",
       "price": 30,
       "image": "images/Raz-25k/sb.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Black & Blue Lime",
+      "price": 30,
+      "image": "images/Raz-25k/bcbl.webp",
       "tags": [],
       "soldOut": false
     },
@@ -154,6 +161,13 @@
       "soldOut": false
     },
     {
+      "flavor": "Cherry Strapple",
+      "price": 30,
+      "image": "images/Raz-25k/cs.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
       "flavor": "Iced Blue Dragon",
       "price": 30,
       "image": "images/Raz-25k/ibd.webp",
@@ -168,11 +182,32 @@
       "soldOut": false
     },
     {
+      "flavor": "Mango Loco",
+      "price": 30,
+      "image": "images/Raz-25k/ml.webp",
+      "tags": [],
+      "soldOut": true
+    },
+    {
+      "flavor": "Miami Mint",
+      "price": 30,
+      "image": "images/Raz-25k/mm.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
       "flavor": "Orange Berry Lime Ice",
       "price": 30,
       "image": "images/Raz-25k/obli.webp",
       "tags": [],
-      "soldOut": false
+      "soldOut": true
+    },
+    {
+      "flavor": "Orange Mango",
+      "price": 30,
+      "image": "images/Raz-25k/om.webp",
+      "tags": [],
+      "soldOut": true
     },
     {
       "flavor": "Orange Pineapple Punch",
@@ -195,6 +230,13 @@
       "tags": [],
       "soldOut": false
     },
+     {
+      "flavor": "Razzle Dazzle",
+      "price": 30,
+      "image": "images/Raz-25k/rdazz.webp",
+      "tags": [],
+      "soldOut": true
+    },
     {
       "flavor": "Sour Apple Ice",
       "price": 30,
@@ -203,16 +245,37 @@
       "soldOut": false
     },
     {
-      "flavor": "Sour Raspberry",
+      "flavor": "Sour Apple Watermelon",
       "price": 30,
-      "image": "images/Raz-25k/sr.webp",
+      "image": "images/Raz-25k/saw.webp",
+      "tags": [],
+      "soldOut": true
+    },
+    {
+      "flavor": "Sour Raspberry Punch",
+      "price": 30,
+      "image": "images/Raz-25k/srp.webp",
       "tags": [],
       "soldOut": false
+    },
+      {
+      "flavor": "Sour Raspberry Watermelon",
+      "price": 30,
+      "image": "images/Raz-25k/srw.jpg",
+      "tags": [],
+      "soldOut": false
+    },
+      {
+      "flavor": "Sour Watermelon Peach",
+      "price": 30,
+      "image": "images/Raz-25k/swp.webp",
+      "tags": [],
+      "soldOut": true
     },
     {
       "flavor": "Strawberry Kiwi Pear",
       "price": 30,
-      "image": "images/Raz-25k/skp.webp",
+      "image": "images/Raz-25k/skp.jpg",
       "tags": [],
       "soldOut": false
     },
@@ -223,10 +286,38 @@
       "tags": [],
       "soldOut": false
     },
+     {
+      "flavor": "Triple Berry Punch",
+      "price": 30,
+      "image": "images/Raz-25k/tbp.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "Tropical Gush",
+      "price": 30,
+      "image": "images/Raz-25k/tbg.webp",
+      "tags": [],
+      "soldOut": false
+    },
     {
       "flavor": "Watermelon Ice",
       "price": 30,
       "image": "images/Raz-25k/wi.webp",
+      "tags": [],
+      "soldOut": false
+    },
+    {
+      "flavor": "White Grape Gush",
+      "price": 30,
+      "image": "images/Raz-25k/wgg.webp",
+      "tags": [],
+      "soldOut": false
+    },
+       {
+      "flavor": "Wintergreen",
+      "price": 30,
+      "image": "images/Raz-25k/wint.webp",
       "tags": [],
       "soldOut": false
     },
