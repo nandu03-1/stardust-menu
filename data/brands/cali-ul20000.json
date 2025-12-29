@@ -74,14 +74,14 @@
       "price": 25,
       "image": "images/cali20k/fb.jpg",
       "tags": [],
-      "soldOut": false
+      "soldOut": true
     },
     {
       "flavor": "Frozen Blue Raspberry",
       "price": 25,
       "image": "images/cali20k/fblack.jpg",
       "tags": [],
-      "soldOut": false
+      "soldOut": true
     },
     {
       "flavor": "Frozen Grape",
@@ -249,7 +249,7 @@
       "price": 25,
       "image": "images/cali20k/fkl.jpg",
       "tags": [],
-      "soldOut": false
+      "soldOut": true
     },
      {
       "flavor": "Frozen Lush",
@@ -312,7 +312,7 @@
       "price": 25,
       "image": "images/cali20k/spearmint.jpg",
       "tags": [],
-      "soldOut": false
+      "soldOut": true
     },
     {
       "flavor": "Strawberry Kiwi",
