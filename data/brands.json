@@ -169,6 +169,16 @@
     "dealText": "2 for $35",
     "cardImage": "./images/bc5000/logo.webp",
     "file": "./data/brands/bc5000.json"
+  },
+  
+    {
+    "id": "Clearance",
+    "name": "Clearance",
+    "puffs": "",
+    "priceText": "$10 to $15",
+    "dealText": "",
+    "cardImage": "./images/promos/clearance.avif",
+    "file": "./data/brands/clearance.json"
   }
   
 ]
